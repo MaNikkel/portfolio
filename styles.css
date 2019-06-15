@@ -1,0 +1,117 @@
+html, body{
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+    
+}
+/*cover*/
+
+#cover{
+    background: #222 url('img/stars.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption{
+    width: 100%;
+}
+#links{
+    margin-top: 1rem;
+}
+#links button a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    transition: color 0.4s;
+    
+}
+
+#links button:hover > a{
+    color: #006600;
+}
+.section-content{
+    padding: 5rem 0;
+}
+
+#about{
+    background: url('img/helloworld.png') bottom center no-repeat;
+    background-size: 100%;
+    
+}
+
+#abb{
+    background-color: black;
+}
+
+.about-text{
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#more_{
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1.875rem;
+    
+}
+
+#more_d{
+    height: 55rem;
+}
+
+#main-footer{
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+    text-align: center;
+}
+img{
+    max-height: 80%;
+}
+
+#instaclone{
+    max-width: 60%;
+    max-height: auto;
+}
+
+#laravel{
+    max-width: 56%;
+    max-height: auto;
+}
+
+#mor-gh{
+    height: 100%;
+}
+
+#kafer{
+    margin: 0;
+    padding: 0;
+    max-height: 630px;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}

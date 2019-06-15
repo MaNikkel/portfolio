@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mathias Nikkel</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section id="cover">
+        <div id="cover-caption">
+            <div class="d-flex justify-content-center">
+                <div class="col-sm-10 col-sm-offser-1">
+                    <h1 class="display-1">Mathias Nikkel</h1>
+                    <h4>Software Developer</h4>
+                    <div id="links">
+                        <button type="button" class="btn btn-outline-light btn-circle btn-xl"><a
+                                href="https://github.com/MaNikkel" class="icon fa fa-github"
+                                target="_blank"></a></button>
+                        <button type="button" class="btn btn-outline-light btn-circle btn-xl"><a
+                                href="https://www.linkedin.com/in/mathias-nikkel/" class="fa fa-linkedin"
+                                target="_blank"></a></button>
+                        <button type="button" class="btn btn-outline-light btn-circle btn-xl"><a href="#carousel"
+                                class="fa fa-coffee"></a></button>
+
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- <section id="projects">
+        <div class="section-content">
+            <div class="container">
+                <h2>What we do</h2>
+                <p class="lead">
+                    Some Projects
+                </p>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card-group">
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">A &amp; B</h4>
+                                    <h6 class="card-subtitle">abc def sdfasdf</h6>
+                                </div>
+                                <img src="img/chalkboard.jpg" alt="a chalkboard">
+                                <div class="card-block">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                                        data-target="#myModal">ok</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">A &amp; B</h4>
+                                    <h6 class="card-subtitle">abc def sdfasdf</h6>
+                                </div>
+                                <img src="img/working.jpg" alt="a chalkboard">
+                                <div class="card-block">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                                        data-target="#myModal">ok</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">A &amp; B</h4>
+                                    <h6 class="card-subtitle">abc def sdfasdf</h6>
+                                </div>
+                                <img src="img/programming.jpg" alt="a chalkboard">
+                                <div class="card-block">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                                        data-target="#myModal">ok</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    
+    <div id="carousel" class="carousel slide bg-dark" data-ride="carousel">
+        <h5 class="text-white text-center">A few projects:</h5>
+        <div class="carousel-inner">
+            <!--primeiro slide-->
+            <div class="carousel-item active">
+                <div class="card mb-3 text-white bg-dark">
+
+                    <img id="instaclone" class="card-img-top img-fluid align-self-center" src="img/instaclone.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Instagram clone</h4>
+                        <p class="card-text">Destined to practice and learn concepts in node.js, react and react-native,
+                            this project implements a basic clone of Instagram, in web and mobile application.</p>
+                        <p class="card-text">It implements post uploading (in both environments) real-time feed
+                            visualization using Websockets protocol and post likes, using the same protocol. </p>
+                        <p class="card-text">Using a NoSQL database (MongoDB) this project uses multipart form-data and
+                            filesystem structure, that is for the app loading time optimization, considering multi-users
+                            logged-in.</p>
+                        <div class="text-center">
+                            <a href="https://github.com/MaNikkel/Instaclone" class="btn btn-primary"><i
+                                    class="fa fa-github "></i> PROJECT</a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <!--segundo slide-->
+            <div class="carousel-item">
+                <div class="card mb-3 text-white bg-dark">
+
+                    <img id="laravel" class="card-img-top img-fluid align-self-center" src="img/laravel.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Laravel Blog</h4>
+                        <p class="card-text">Idealized to use the Laravel framework, this project implements a complete
+                            blog application, using pure PHP and Laravel resources, like tinker, controllers, auth,
+                            migrations and more.</p>
+                        <p class="card-text">This app implements a single account, with an complete crud application for
+                            the user posts, but it also implements a feed visualization of posts of all users, just like
+                            a normal blog application does.</p>
+                        <p class="card-text">MySQL was the chosen database, due to their easy usage with PHPMyAdmin, but
+                            all their management was made via artisan migrations, making the database manipulation much
+                            easier.</p>
+                        <div class="text-center">
+                            <a href="https://github.com/MaNikkel/Laravel-blog" class="btn btn-primary"><i
+                                    class="fa fa-github "></i> PROJECT</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--terceiro slide-->
+            <div class="carousel-item ">
+                <div class="card flex-row flex-wrap card text-white bg-dark justify-content-center">
+                    <div class="card-header border-0" id="kafer">
+                        <img src="img/kt.png" alt="">
+                    </div>
+                    <div class="card-block px-2 col-sm-6">
+                        <h4 class="card-title">Line Follower Screen</h4>
+                        <p class="card-text">In this project, I wish to read incoming data, sourced from my Arduino
+                            based line follower robot, and write it into a database so I could use it to analyze it and
+                            build some cool graphs. To that, I have used the Java language, due to their facilities to
+                            build desktop interfaces using Swing and their pre-loaded MySQL Driver (at least in Netbeans
+                            IDE).</p>
+                        <p class="card-text">Beside the computer/Arduino communication issues at the beginning, that
+                            software worked just fine for me, helping me out to easily gather all information from the
+                            controller implemented in that robot, saving me a lot of time.</p>
+                        <a href="https://github.com/MaNikkel/Interface-Kafer" class="btn btn-primary"><i
+                                class="fa fa-github "></i> PROJECT</a>
+                    </div>
+                    <div class="w-100"></div>
+
+                </div>
+            </div>
+            <!--quarto slide-->
+
+
+<!--
+            <div class="carousel-item">
+                <div id="more_d">
+                    <div class="card bg-dark text-white text-center align-middle">
+                        <img id="mor-gh" class="card-img img-fluid align-self-center" src="img/helloworld.png"
+                            alt="Card image">
+                        <div class="card-img-overlay" id="more_">
+                            <h2 class="card-title">More projects</h2>
+                            <h4 class="card-text">Click here to check more projects!</h4>
+                            <a href="https://github.com/MaNikkel" class="btn btn-primary" target="_blank"><i
+                                    class="fa fa-github-alt fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+-->
+        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div id="abb">
+        <section id="about">
+
+            <div class="section-content">
+                <div class="container">
+                    <div class="col-md-6">
+
+                        <div class="about-text">
+                            <h3>About me</h3>
+                            <p class="lead">Started my software passion at the age of 15, when I first bought an Arduino
+                                board. From there, have learned many new languages, such as Java and C++. Went to
+                                College in
+                                2015, where I discovered web development. </p>
+                            <p class="lead">My main interests are web and mobile development, using Laravel, node.js,
+                                react.js and react native but I love to create embedded systems software and
+                                applications
+                                that communicate them with the computer.</p>
+                            <p class="lead">I love to create applications that solve problems, and engineering is about
+                                that
+                            </p>
+                            <h2 class="card-title">More projects</h2>
+                            <p class="lead">Click here to check more projects!</p>
+                            <a href="https://github.com/MaNikkel" class="btn btn-primary" target="_blank"><i
+                                class="fa fa-github-alt fa-lg"> Github Page</i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+
+    <footer id="main-footer">
+        <div class="container">
+            Develped by: <a href="https://www.facebook.com/mathias.nikkel" style="color: #fffaff"
+                target="_blank">Mathias Nikkel</a>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
